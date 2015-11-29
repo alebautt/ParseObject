@@ -19,10 +19,10 @@
 /* Begin PBXFileReference section */
 		B0E90DBF1C0B46A300E44241 /* ParseObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E90DC31C0B46A400E44241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0E90DC51C0B46A400E44241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B0E90DC61C0B46A400E44241 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0E90DC81C0B46A400E44241 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0E90DC91C0B46A400E44241 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0E90DC51C0B46A400E44241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ParseObject/AppDelegate.h; sourceTree = "<group>"; };
+		B0E90DC61C0B46A400E44241 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ParseObject/AppDelegate.m; sourceTree = "<group>"; };
+		B0E90DC81C0B46A400E44241 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ParseObject/ViewController.h; sourceTree = "<group>"; };
+		B0E90DC91C0B46A400E44241 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ParseObject/ViewController.m; sourceTree = "<group>"; };
 		B0E90DCC1C0B46A400E44241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0E90DCF1C0B46A400E44241 /* ParseObject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParseObject.xcdatamodel; sourceTree = "<group>"; };
 		B0E90DD11C0B46A400E44241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +44,8 @@
 		B0E90DB61C0B46A300E44241 = {
 			isa = PBXGroup;
 			children = (
+				B0E90DDD1C0B46B700E44241 /* Controllers */,
+				B0E90DDC1C0B46AC00E44241 /* Main */,
 				B0E90DC11C0B46A400E44241 /* ParseObject */,
 				B0E90DC01C0B46A300E44241 /* Products */,
 			);
@@ -60,10 +62,6 @@
 		B0E90DC11C0B46A400E44241 /* ParseObject */ = {
 			isa = PBXGroup;
 			children = (
-				B0E90DC51C0B46A400E44241 /* AppDelegate.h */,
-				B0E90DC61C0B46A400E44241 /* AppDelegate.m */,
-				B0E90DC81C0B46A400E44241 /* ViewController.h */,
-				B0E90DC91C0B46A400E44241 /* ViewController.m */,
 				B0E90DCB1C0B46A400E44241 /* Main.storyboard */,
 				B0E90DD11C0B46A400E44241 /* Assets.xcassets */,
 				B0E90DD31C0B46A400E44241 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				B0E90DC31C0B46A400E44241 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0E90DDC1C0B46AC00E44241 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B0E90DC51C0B46A400E44241 /* AppDelegate.h */,
+				B0E90DC61C0B46A400E44241 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B0E90DDD1C0B46B700E44241 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0E90DC81C0B46A400E44241 /* ViewController.h */,
+				B0E90DC91C0B46A400E44241 /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
